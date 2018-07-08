@@ -21,10 +21,20 @@
 1. Android Parcelable code generator
 2. EventBus3 Intellij Plugin
 3. Databinding Support
+4. Android Wifi ADB
 
 #### 添加了比较流行的 Color Theme
 我自己一直想使用 XCode 的配色方案，但是实际导入的时候，总是会出现一点颜色误差，文字的颜色与底色重合了，导致看不清。
 
 #### 插件集合地址
 https://ydmmocoo.github.io/2016/06/28/Android-Studio%E6%8F%92%E4%BB%B6%E6%95%B4%E7%90%86/
+
+
+#### changeLog
+2018年07月08日18:09:22
+
+```
+1. 改小了窗体文字的大小，在我的 13.3 上太大了点。
+2. Ubuntu 上使用 Android WiFi ADB 请参考：https://developer.android.com/studio/run/device
+```
 
