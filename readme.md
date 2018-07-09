@@ -1,6 +1,6 @@
 为了避免以后每次搭建工作环境的时候都需要重新对AS进行个性化配置，所以将配置文件导出，便于以后使用。
 
-配置文件版本：1.2
+配置文件版本：1.4
 
 ### 该配置文件配置详情如下：
 
@@ -32,9 +32,19 @@ https://ydmmocoo.github.io/2016/06/28/Android-Studio%E6%8F%92%E4%BB%B6%E6%95%B4%
 
 #### changeLog
 2018年07月08日18:09:22
-
 ```
 1. 改小了窗体文字的大小，在我的 13.3 上太大了点。
 2. Ubuntu 上使用 Android WiFi ADB 请参考：https://developer.android.com/studio/run/device
 ```
 
+2018年07月09日10:31:22
+```
+插件似乎无法导出配置，所以只能自己手动配置了。
+```
+
+### 常见问题
+
+#### missing platforms
+```
+重新设置一下 sdk 的路径即可。settings -> Android SDK Location -> Edit -> ... -> ok
+```
